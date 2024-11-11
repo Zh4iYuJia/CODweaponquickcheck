@@ -24,11 +24,11 @@ WeaponStats getWeaponStats(const string& weaponName, const map<string, WeaponSta
 int main() {
     // 定义武器和对应的数值
     map<string, WeaponStats> weaponMap = {
-        {"Sword", {300, 3, 50}},      // 武器名称, {击杀时间, 致死子弹数, 每颗子弹的伤害}
-        {"Axe", {450, 4, 65}},
-        {"Bow", {200, 2, 40}},
-        {"Dagger", {150, 5, 30}},
-        {"Spear", {400, 3, 55}}
+        {"AK74", {300, 3, 50}},      // 武器名称, {击杀时间, 致死子弹数, 每颗子弹的伤害}
+        {"ASVAL", {450, 4, 65}},
+        {"XM4", {200, 2, 40}},
+        {"C9", {150, 5, 30}},
+        {"Master's Shit", {1, 1, 999}}
     };
 
     string weaponName;
