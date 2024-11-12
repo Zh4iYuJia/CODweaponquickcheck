@@ -5,9 +5,9 @@ using namespace std;
 
 // 定义武器属性的结构体
 struct WeaponStats {
-    int timeToKill;    // 躯干理论击杀时间（毫秒）
-    int bulletsToKill; // 致死子弹数
-    int damage;        // 每颗子弹的伤害
+    double timeToKill;    // 躯干理论击杀时间（毫秒）
+    double bulletsToKill; // 致死子弹数
+    double damage;        // 每颗子弹的伤害
 };
 
 // 定义获取武器信息的函数
@@ -28,7 +28,7 @@ int main() {
         {"ASVAL", {550-800, 8-12, 40-28}},
         {"DTIR 30-06", {638-817, 6-8, 55.5-43.1}},
         {"Static-HV", {653-870, 10-13, 32.15-24.3}},
-        {"Master's Shit", {1, 1, 999}}
+        {"Master's Shit", {1, 1, 999}},
     };
 
     string weaponName;
