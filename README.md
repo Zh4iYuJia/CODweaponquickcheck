@@ -2,6 +2,7 @@
 
 ## 项目简介
 COD Weapon Quick Check 是一个用于查询 Call of Duty 游戏中武器信息的简单工具。用户可以通过输入武器名称，快速获取该武器的数值数据，包括躯干理论击杀时间、致死子弹数和伤害等。
+点击此处查看版本更新说明https://github.com/Zh4iYuJia/CODweaponquickcheck/blob/main/%E7%89%88%E6%9C%AC%E7%89%B9%E6%80%A7.md
 
 ## 功能特性
 - 输入武器名称，获取对应的武器数值信息
